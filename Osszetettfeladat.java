@@ -20,14 +20,14 @@ public class Osszetettfeladat {
         char valasz = 0;
         do{
          //2. A tömbök elemszámát is véletlenszám generátorral állítsd elő 10 és 30 között.
-            int darabszam = (int) (Math.random() * 10) + 30;
+            int darabszam = (int) (Math.random() * 10) + 20;
         //1. Hozz létre két tömböt: szamok1, szamok2 néven!    
         int szamok1[] = new int[darabszam];
         int szamok2[] = new int[darabszam];
         //3. Az elemek a -50 és +50 értéktartományba essenek.
         for (int i = 0; i < darabszam; i++) {
-            szamok1[i] = (int) (Math.random() * -50) + 50;
-            szamok2[i] = (int) (Math.random() * -50) + 50;
+            szamok1[i] = (int) (Math.random() * 100) -50;
+            szamok2[i] = (int) (Math.random() * 100) - 50;
         }
         //4. Írasd ki a két tömböt egy-egy sorban ügyelve, hogy az elemek helyiérték szerint egymás alá kerüljenek.
         System.out.println("\nA szamok1 tömb elemei: ");
