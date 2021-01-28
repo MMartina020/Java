@@ -35,7 +35,7 @@ public class KeruletMinden {
         char kerdes = 0;
         do{
         int valasz;
-        System.out.println("\nVálassza ki, melyik kerület terület számító programot szeretné használni? (1/2/3)");
+        System.out.println("\nVálassza ki, melyik kerület terület számító programot szeretné használni? (1/2/3/4/5)");
         System.out.println("1 - Téglalap");
         System.out.println("2 - Kör");
         System.out.println("3 - Háromszög");
